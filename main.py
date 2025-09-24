@@ -27,3 +27,5 @@ if (a + b > c) and (a + c > b) and (b + c > a):
         alpha= round(math.degrees(math.acos((b**2+c**2-a**2)/(2*b*c))),2)
         beta= round(math.degrees(math.acos((a**2+c**2-b**2)/(2*a*c))),2)
         gamma= round(math.degrees(math.acos((a**2+b**2-c**2)/(2*a*b))),2)
+        print("Obvod trojuholnika je: ", o)
+        print("Obsah trojuholnika je: ", S)
